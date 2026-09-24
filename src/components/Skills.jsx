@@ -10,17 +10,18 @@ const columns = [
   {
     title: 'Frameworks / Librerías',
     items: [
-      { name: 'React', detail: 'UI componentizada en producción' },
-      { name: 'Tailwind CSS', detail: 'estilos utilitarios y consistentes' },
-      { name: 'MUI', detail: 'interfaces rápidas con design system' },
+      { name: 'React', detail: 'desarrollo de interfaces dinámica' },
+      { name: 'Tailwind CSS', detail: 'estilos rápidos y responsivos' },
+      { name: 'MUI', detail: 'componentes reutilizables para interfaces' },
     ],
   },
   {
     title: 'Herramientas',
     items: [
-      { name: 'Git', detail: 'control de versiones en equipo' },
-      { name: 'GitHub Actions', detail: 'automatización y despliegue' },
-      { name: 'Figma', detail: 'lectura de diseños e implementación' },
+      { name: 'Git', detail: 'control de versiones' },
+      { name: 'GitHub', detail: 'trabajo con repositorios y ramas' },
+      { name: 'Postman', detail: 'pruebas de APIs' },
+      { name: 'Figma', detail: 'implementación de diseños' },
     ],
   },
 ];

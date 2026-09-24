@@ -1,4 +1,5 @@
 import '../styles/Hero.css';
+import cv from '../assets/cv.pdf';
 
 export default function Hero() {
   const scrollTo = (id) => {
@@ -23,7 +24,7 @@ export default function Hero() {
           <button className="hero__btn-primary" onClick={() => scrollTo('proyectos')}>
             Ver proyectos
           </button>
-          <a className="hero__btn-secondary" href="/cv.pdf" download>
+          <a className="hero__btn-secondary" href={cv} download="CV-Guadalupe-Gaona.pdf">
             Descargar CV
           </a>
         </div>
